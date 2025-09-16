@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="script/script.js" defer></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Prince Francis Kwame Afflade</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>
+          Email:
+          <a href="mailto:P.afflade123@gmail.com">P.afflade123@gmail.com</a>
+        </p>
+        <p>Phone: +233 257 521 592</p>
+      </div>
+    </section>
+  </body>
+</html>
